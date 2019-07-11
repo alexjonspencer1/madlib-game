@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mad Lib Challenge Game</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 class = "page-title">My First Two Days at Bootcamp Prep: a Mad Lib</h1>
+    <section>
+        <h2 class = "page-header">Fill in the Blanks</h2>
+        <label>
+            <p>Present-Tense Verb: <input id = "present-tense-1"></p>
+        </label>
+        <label>
+            <p>Adjective: <input id = "adjective-1"></p>
+        </label>
+        <label>
+            <p>Noun: <input id = "noun-1"></p>
+        </label>
+        <label>
+            <p>Past-Tense Verb: <input id = "past-tense-1"></p>
+        </label>
+        <label>
+            <p>Adjective: <input id = "adjective-2"></p>
+        </label>
+        <label>
+            <p>Past-Tense Verb: <input id = "past-tense-2"></p>
+        </label>
+        <label>
+            <p>Number Higher Than One: <input id = "number-1"></p>
+        </label>
+        <label>
+            <p>Adjective: <input id = "adjective-3"></p>
+        </label>
+        <p>
+        <button onclick="makeMadLib()">Create Your Madlib Here!!</button>
+        </p>
+    </section>
+    <section id="mad-lib" class="hidden"></section>>
+        <p>
+            One day I was "<span id = "present-verb-span"></span>" through the woods and all of a sudden I stepped into some "<span id="adjective-1-span"></span>" "<span id="noun-1-span"></span>"!!
+        </p>
+    </section>  
+    <script src="app.js"></script>
+</body>
+</html>
